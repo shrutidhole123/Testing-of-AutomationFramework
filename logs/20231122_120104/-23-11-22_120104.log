@@ -1,0 +1,194 @@
+[2023-11-22 12:01:05] [INFO   ] Generating Test Report 
+[2023-11-22 12:01:05] [INFO   ] Generating test report 
+[2023-11-22 12:01:05] [INFO   ] Generating test report 
+[2023-11-22 12:01:05] [INFO   ] Fetching data from the data provider 'EG_login' 
+[2023-11-22 12:01:06] [INFO   ] Setting up the browser... 
+[2023-11-22 12:01:08] [INFO   ] Started measuring time 2023-11-22T06:31:08.201417128Z 
+[2023-11-22 12:01:08] [INFO   ] Executing LM_L_LIP Test Cases 
+[2023-11-22 12:01:08] [INFO   ] Executing login test cases... 
+[2023-11-22 12:01:08] [INFO   ] Entering username: eg_admin 
+[2023-11-22 12:01:13] [INFO   ] Entering password... 
+[2023-11-22 12:01:14] [INFO   ] Clicking on login button... 
+[2023-11-22 12:01:24] [SEVERE ] !!!    EXCEPTION Occurred    !!! 
+[2023-11-22 12:01:24] [SEVERE ] Exception occurred during IP login test case. 
+[2023-11-22 12:01:24] [SEVERE ] ------------------- Exception Error Message is: -------------- 
+[2023-11-22 12:01:24] [SEVERE ] no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Home')]"}
+  (Session info: headless chrome=116.0.5845.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-86-generic', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [513130f4f90af602ebfeb355fa51cf26, findElement {using=xpath, value=//div[contains(text(),'Home')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44115}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:44115/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 513130f4f90af602ebfeb355fa51cf26 
+[2023-11-22 12:01:24] [SEVERE ] =================== Exception stack trace ==================== 
+[2023-11-22 12:01:24] [SEVERE ] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Home')]"}
+  (Session info: headless chrome=116.0.5845.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-86-generic', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [513130f4f90af602ebfeb355fa51cf26, findElement {using=xpath, value=//div[contains(text(),'Home')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44115}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:44115/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 513130f4f90af602ebfeb355fa51cf26
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at pom.Ip_Login.loginTestCases(Ip_Login.java:100)
+	at pom.test.Ip_Login_Test.LM_L_LIP(Ip_Login_Test.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+ 
+[2023-11-22 12:01:24] [INFO   ] LM_L_LIP Test Cases Execution Completed 
+[2023-11-22 12:01:24] [INFO   ] Time elapsed - [In milli-seconds: 16516] [In seconds:16.516] 
+[2023-11-22 12:01:27] [INFO   ] Fetching data from the data provider 'prerak_login' 
+[2023-11-22 12:01:27] [INFO   ] Setting up the browser... 
+[2023-11-22 12:01:28] [INFO   ] Started measuring time 2023-11-22T06:31:28.140221112Z 
+[2023-11-22 12:01:28] [INFO   ] Executing LM_L_LP method 
+[2023-11-22 12:01:28] [INFO   ] Executing prerak login LM_L_LP test 
+[2023-11-22 12:01:28] [INFO   ] Entering username: varunb_b_9960051486 
+[2023-11-22 12:01:30] [INFO   ] Entering password... 
+[2023-11-22 12:01:30] [INFO   ] Clicking on login button... 
+[2023-11-22 12:01:33] [INFO   ] Clicking Logout... 
+[2023-11-22 12:01:33] [INFO   ] Login test LM_L_LP executed successfully. 
+[2023-11-22 12:01:33] [INFO   ] Test execution of LM_L_LP completed 
+[2023-11-22 12:01:33] [INFO   ] Time elapsed - [In milli-seconds: 5364] [In seconds:5.364] 
+[2023-11-22 12:01:33] [INFO   ] Setting up the browser... 
+[2023-11-22 12:01:34] [INFO   ] Started measuring time 2023-11-22T06:31:34.598494616Z 
+[2023-11-22 12:01:34] [INFO   ] PM_PPE_PP_PrerakHome method 
+[2023-11-22 12:01:34] [INFO   ] Executing common login... 
+[2023-11-22 12:01:34] [INFO   ] Entering username: varunb_b_9960051486 
+[2023-11-22 12:01:36] [INFO   ] Entering password... 
+[2023-11-22 12:01:37] [INFO   ] Clicking on login button... 
+[2023-11-22 12:01:37] [INFO   ] Common login executed successfully. 
+[2023-11-22 12:01:37] [INFO   ] Executing PM_PPE_PP_PrerakProfileEdit test cases... 
+[2023-11-22 12:01:39] [INFO   ] Clicking sidebar 
+[2023-11-22 12:01:40] [INFO   ] Clicking Profile 
+[2023-11-22 12:01:44] [INFO   ] Clicking editBasicDetails 
+[2023-11-22 12:01:45] [INFO   ] Clicking editName 
+[2023-11-22 12:01:46] [INFO   ] Clicking editContactDetails 
+[2023-11-22 12:01:48] [INFO   ] Clicking editAddressDetails 
+[2023-11-22 12:01:50] [SEVERE ] !!!    EXCEPTION Occurred    !!! 
+[2023-11-22 12:01:50] [SEVERE ] Exception occurred during PM_PPE_PP_PrerakProfileEdit test cases. 
+[2023-11-22 12:01:50] [SEVERE ] ------------------- Exception Error Message is: -------------- 
+[2023-11-22 12:01:50] [SEVERE ] Expected condition failed: waiting for element to be clickable: By.xpath: (//div[@role='button'])[11] (tried for 2 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-86-generic', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:33241}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:33241/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 53c739bac06677105cae3d9f4906d82a 
+[2023-11-22 12:01:50] [SEVERE ] =================== Exception stack trace ==================== 
+[2023-11-22 12:01:50] [SEVERE ] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: (//div[@role='button'])[11] (tried for 2 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-86-generic', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:33241}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:33241/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 53c739bac06677105cae3d9f4906d82a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at pom.Prerak_Edit.clickAndWait(Prerak_Edit.java:295)
+	at pom.Prerak_Edit.click_editAddressDetails(Prerak_Edit.java:170)
+	at pom.Prerak_Edit.PM_PPE_PP_PrerakProfileEdit(Prerak_Edit.java:437)
+	at pom.test.Prerak_Edit_Test.PM_PPE_PP_PrerakHome(Prerak_Edit_Test.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+ 
+[2023-11-22 12:01:50] [INFO   ] Test case execution completed 
+[2023-11-22 12:01:50] [INFO   ] Time elapsed - [In milli-seconds: 15726] [In seconds:15.726] 
+[2023-11-22 12:01:50] [INFO   ] Fetching data from the data provider 'editName' 
+[2023-11-22 12:01:50] [INFO   ] Setting up the browser... 
+[2023-11-22 12:01:51] [INFO   ] Started measuring time 2023-11-22T06:31:51.237844361Z 
+[2023-11-22 12:01:51] [INFO   ] EditPrerakDetails_PM_PPE_PP_editName method 
+[2023-11-22 12:01:51] [INFO   ] Executing common login... 
+[2023-11-22 12:01:51] [INFO   ] Entering username: varunb_b_9960051486 
+[2023-11-22 12:01:53] [INFO   ] Entering password... 
+[2023-11-22 12:01:53] [INFO   ] Clicking on login button... 
+[2023-11-22 12:01:53] [INFO   ] Common login executed successfully. 
+[2023-11-22 12:01:53] [INFO   ] Executing PM_PPE_PP_editName test cases... 
+[2023-11-22 12:01:56] [INFO   ] Clicking sidebar 
+[2023-11-22 12:01:57] [INFO   ] Clicking Profile 
+[2023-11-22 12:02:01] [INFO   ] Clicking editBasicDetails 
+[2023-11-22 12:02:02] [INFO   ] Clicking editName 
+[2023-11-22 12:02:05] [INFO   ] Entering First Name 
+[2023-11-22 12:02:13] [INFO   ] Entering Middle Name 
+[2023-11-22 12:02:15] [INFO   ] Entering Last Name 
+[2023-11-22 12:02:17] [INFO   ] Selecting Year 
+[2023-11-22 12:02:18] [INFO   ] Selecting Month 
+[2023-11-22 12:02:19] [INFO   ] Selecting Day 
+[2023-11-22 12:02:20] [INFO   ] Clicking Save 
+[2023-11-22 12:02:21] [INFO   ] PM_PPE_PP_editName Test executed successfully. 
+[2023-11-22 12:02:21] [INFO   ] PM_PPE_PP_editName Test case execution completed 
+[2023-11-22 12:02:21] [INFO   ] Time elapsed - [In milli-seconds: 30704] [In seconds:30.704] 
