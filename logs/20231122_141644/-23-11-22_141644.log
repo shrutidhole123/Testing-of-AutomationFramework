@@ -1,0 +1,123 @@
+[2023-11-22 14:16:45] [INFO   ] Generating Test Report 
+[2023-11-22 14:16:45] [INFO   ] Generating test report 
+[2023-11-22 14:16:45] [INFO   ] Generating test report 
+[2023-11-22 14:16:45] [INFO   ] Fetching data from the data provider 'EG_login' 
+[2023-11-22 14:16:46] [INFO   ] Setting up the browser... 
+[2023-11-22 14:16:48] [INFO   ] Started measuring time 2023-11-22T08:46:48.481643319Z 
+[2023-11-22 14:16:48] [INFO   ] Executing LM_L_LIP Test Cases 
+[2023-11-22 14:16:48] [INFO   ] Executing login test cases... 
+[2023-11-22 14:16:48] [INFO   ] Entering username: eg_admin 
+[2023-11-22 14:16:49] [INFO   ] Entering password... 
+[2023-11-22 14:16:50] [INFO   ] Clicking on login button... 
+[2023-11-22 14:16:52] [INFO   ] Clicking Logout... 
+[2023-11-22 14:16:52] [INFO   ] IP Login test cases executed successfully. 
+[2023-11-22 14:16:52] [INFO   ] LM_L_LIP Test Cases Execution Completed 
+[2023-11-22 14:16:52] [INFO   ] Time elapsed - [In milli-seconds: 4279] [In seconds:4.279] 
+[2023-11-22 14:16:53] [INFO   ] Fetching data from the data provider 'prerak_login' 
+[2023-11-22 14:16:53] [INFO   ] Setting up the browser... 
+[2023-11-22 14:16:54] [INFO   ] Started measuring time 2023-11-22T08:46:54.177170760Z 
+[2023-11-22 14:16:54] [INFO   ] Executing LM_L_LP method 
+[2023-11-22 14:16:54] [INFO   ] Executing prerak login LM_L_LP test 
+[2023-11-22 14:16:54] [INFO   ] Entering username: varunb_b_9960051486 
+[2023-11-22 14:16:56] [INFO   ] Entering password... 
+[2023-11-22 14:16:57] [INFO   ] Clicking on login button... 
+[2023-11-22 14:16:59] [INFO   ] Clicking Logout... 
+[2023-11-22 14:17:00] [INFO   ] Login test LM_L_LP executed successfully. 
+[2023-11-22 14:17:00] [INFO   ] Test execution of LM_L_LP completed 
+[2023-11-22 14:17:00] [INFO   ] Time elapsed - [In milli-seconds: 5934] [In seconds:5.934] 
+[2023-11-22 14:17:00] [INFO   ] Setting up the browser... 
+[2023-11-22 14:17:01] [INFO   ] Started measuring time 2023-11-22T08:47:01.098740262Z 
+[2023-11-22 14:17:01] [INFO   ] PM_PPE_PP_PrerakHome method 
+[2023-11-22 14:17:01] [INFO   ] Executing common login... 
+[2023-11-22 14:17:01] [INFO   ] Entering username: varunb_b_9960051486 
+[2023-11-22 14:17:03] [INFO   ] Entering password... 
+[2023-11-22 14:17:04] [INFO   ] Clicking on login button... 
+[2023-11-22 14:17:04] [INFO   ] Common login executed successfully. 
+[2023-11-22 14:17:04] [INFO   ] Executing PM_PPE_PP_PrerakProfileEdit test cases... 
+[2023-11-22 14:17:07] [INFO   ] Clicking sidebar 
+[2023-11-22 14:17:08] [INFO   ] Clicking Profile 
+[2023-11-22 14:17:11] [INFO   ] Clicking editBasicDetails 
+[2023-11-22 14:17:12] [INFO   ] Clicking editName 
+[2023-11-22 14:17:14] [INFO   ] Clicking editContactDetails 
+[2023-11-22 14:17:15] [INFO   ] Clicking editAddressDetails 
+[2023-11-22 14:17:18] [SEVERE ] !!!    EXCEPTION Occurred    !!! 
+[2023-11-22 14:17:18] [SEVERE ] Exception occurred during PM_PPE_PP_PrerakProfileEdit test cases. 
+[2023-11-22 14:17:18] [SEVERE ] ------------------- Exception Error Message is: -------------- 
+[2023-11-22 14:17:18] [SEVERE ] Expected condition failed: waiting for element to be clickable: By.xpath: (//div[@role='button'])[11] (tried for 2 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-86-generic', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45167}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:45167/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b176af6de7767f23503791881fb8ba93 
+[2023-11-22 14:17:18] [SEVERE ] =================== Exception stack trace ==================== 
+[2023-11-22 14:17:18] [SEVERE ] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: (//div[@role='button'])[11] (tried for 2 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-86-generic', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.96, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45167}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:45167/devtoo..., se:cdpVersion: 116.0.5845.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b176af6de7767f23503791881fb8ba93
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at pom.Prerak_Edit.clickAndWait(Prerak_Edit.java:295)
+	at pom.Prerak_Edit.click_editAddressDetails(Prerak_Edit.java:170)
+	at pom.Prerak_Edit.PM_PPE_PP_PrerakProfileEdit(Prerak_Edit.java:437)
+	at pom.test.Prerak_Edit_Test.PM_PPE_PP_PrerakHome(Prerak_Edit_Test.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+ 
+[2023-11-22 14:17:18] [INFO   ] Test case execution completed 
+[2023-11-22 14:17:18] [INFO   ] Time elapsed - [In milli-seconds: 17259] [In seconds:17.259] 
+[2023-11-22 14:17:18] [INFO   ] Fetching data from the data provider 'editName' 
+[2023-11-22 14:17:18] [INFO   ] Setting up the browser... 
+[2023-11-22 14:17:19] [INFO   ] Started measuring time 2023-11-22T08:47:19.327264715Z 
+[2023-11-22 14:17:19] [INFO   ] EditPrerakDetails_PM_PPE_PP_editName method 
+[2023-11-22 14:17:19] [INFO   ] Executing common login... 
+[2023-11-22 14:17:19] [INFO   ] Entering username: varunb_b_9960051486 
+[2023-11-22 14:17:21] [INFO   ] Entering password... 
+[2023-11-22 14:17:21] [INFO   ] Clicking on login button... 
+[2023-11-22 14:17:21] [INFO   ] Common login executed successfully. 
+[2023-11-22 14:17:21] [INFO   ] Executing PM_PPE_PP_editName test cases... 
+[2023-11-22 14:17:24] [INFO   ] Clicking sidebar 
+[2023-11-22 14:17:25] [INFO   ] Clicking Profile 
+[2023-11-22 14:17:28] [INFO   ] Clicking editBasicDetails 
+[2023-11-22 14:17:29] [INFO   ] Clicking editName 
+[2023-11-22 14:17:30] [INFO   ] Entering First Name 
+[2023-11-22 14:17:32] [INFO   ] Entering Middle Name 
+[2023-11-22 14:17:34] [INFO   ] Entering Last Name 
+[2023-11-22 14:17:37] [INFO   ] Selecting Year 
+[2023-11-22 14:17:38] [INFO   ] Selecting Month 
+[2023-11-22 14:17:39] [INFO   ] Selecting Day 
+[2023-11-22 14:17:40] [INFO   ] Clicking Save 
+[2023-11-22 14:17:41] [INFO   ] PM_PPE_PP_editName Test executed successfully. 
+[2023-11-22 14:17:41] [INFO   ] PM_PPE_PP_editName Test case execution completed 
+[2023-11-22 14:17:41] [INFO   ] Time elapsed - [In milli-seconds: 22245] [In seconds:22.245] 
